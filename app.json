@@ -4,7 +4,10 @@
     "slug": "rota-ingles",
     "version": "1.0.0",
     "sdkVersion": "54.0.0",
-    "platforms": ["android", "web"],
+    "platforms": [
+      "android",
+      "web"
+    ],
     "orientation": "portrait",
     "userInterfaceStyle": "dark",
     "splash": {
@@ -19,12 +22,31 @@
     "android": {
       "package": "com.phodencio.rotaingles",
       "versionCode": 1,
-      "permissions": ["NOTIFICATIONS", "RECEIVE_BOOT_COMPLETED", "VIBRATE", "SCHEDULE_EXACT_ALARM"]
+      "permissions": [
+        "NOTIFICATIONS",
+        "RECEIVE_BOOT_COMPLETED",
+        "VIBRATE",
+        "SCHEDULE_EXACT_ALARM"
+      ]
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "plugins": [
       "expo-font",
-      ["expo-notifications", { "color": "#8C9BFF", "sounds": [] }]
-    ]
+      [
+        "expo-notifications",
+        {
+          "color": "#8C9BFF",
+          "sounds": []
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "274a5be9-8452-476f-8e1d-aff8c0a772db"
+      }
+    },
+    "owner": "devfernandopereira"
   }
 }
