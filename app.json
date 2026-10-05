@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Rota B1→C2",
+    "slug": "rota-ingles",
+    "version": "1.0.0",
+    "sdkVersion": "54.0.0",
+    "platforms": ["android", "web"],
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#10121A"
+    },
+    "androidStatusBar": {
+      "barStyle": "light-content",
+      "backgroundColor": "#00000000",
+      "translucent": true
+    },
+    "android": {
+      "package": "com.phodencio.rotaingles",
+      "versionCode": 1,
+      "permissions": ["NOTIFICATIONS", "RECEIVE_BOOT_COMPLETED", "VIBRATE", "SCHEDULE_EXACT_ALARM"]
+    },
+    "assetBundlePatterns": ["**/*"],
+    "plugins": [
+      "expo-font",
+      ["expo-notifications", { "color": "#8C9BFF", "sounds": [] }]
+    ]
+  }
+}
